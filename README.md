@@ -1,0 +1,4 @@
+initmodules
+===========
+
+$( document ).initModules()
