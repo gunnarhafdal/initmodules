@@ -9,9 +9,9 @@
   "description": "A jQuery plugin that helps you initialize your modules using data attributes in your HTML.",
   "main": "jquery.initmodules.js",
   "keywords": [
-    "jquery",
     "modules",
-    "init"
+    "init",
+    "initialize"
   ],
   "license": "Unlicense",
   "private": true,
