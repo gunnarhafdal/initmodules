@@ -1,6 +1,6 @@
 /*jslint devel:true, browser:true, freeze:false */
 /*global App, jQuery */
-(function ($) {
+;(function ($) {
 
   $.fn.initModules = function (namespace, initModuleToCall) {
     if (typeof (namespace) === 'undefined') { namespace = App; }
