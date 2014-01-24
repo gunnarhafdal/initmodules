@@ -1,4 +1,4 @@
-# Init Module
+# Init Modules
 
 ## Usage
 
