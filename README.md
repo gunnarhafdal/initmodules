@@ -25,7 +25,7 @@ The reason I'm not calling it on the document.body is because it uses `.find()` 
 and you might want to run global modules by putting data-js-initialize on the body. If you never do that you can
 change it to `$( document.body ).initModules()`
 
-## Version history:
+## Version history
 
 ### 2014-01-22
 * Updated jshint settings and the default values code so the file passes jshint with no issues
