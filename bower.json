@@ -14,7 +14,6 @@
     "initialize"
   ],
   "license": "Unlicense",
-  "private": true,
   "ignore": [
     "**/.*",
     "node_modules",
