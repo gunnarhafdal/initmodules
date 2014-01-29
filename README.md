@@ -12,7 +12,7 @@
 
     $ bower install initmodules
 
-## API
+## Usage
 
 Add `data-js-initialize` attributes on elements with the module you want to load. E.g.: `<div data-js-initialize="slider">`.
 This will then call `App.slider.initialize(element)`.
