@@ -1,17 +1,16 @@
 /*jslint devel:true, browser:true, freeze:false */
 /*global App, jQuery */
 ;(function ($) {
-
+  "use strict";
   $.fn.initModules = function (namespace, initModuleToCall) {
     if (typeof (namespace) === 'undefined') { namespace = App; }
     if (typeof (initModuleToCall) === 'undefined') { initModuleToCall = 'initialize'; }
 
     // This is so we can use trim in IE8.
-    function _trim() {
-      return this.replace(/^\s+|\s+$/g, '');
-    }
-    if (typeof String.prototype.trim !== 'function') {
-      String.prototype.trim = _trim;
+    if(typeof String.prototype.trim !== 'function') {
+      String.prototype.trim = function() {
+        return this.replace(/^\s+|\s+$/g, ''); 
+      };
     }
 
     var initializers = this.find('[data-js-initialize]');
